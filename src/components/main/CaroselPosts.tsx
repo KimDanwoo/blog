@@ -1,4 +1,3 @@
-'use client'
 import api from '@/services/api'
 import PostCard from '../posts/PostCard'
 import MultiCarosel from './MultiCarosel'

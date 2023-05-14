@@ -1,7 +1,7 @@
 import PostsBox from '../posts/PostsBox'
 import api from '@/services/api'
 
-export default async function FeaturedPosts(): Promise<> {
+export default async function FeaturedPosts() {
   const posts = await api.getFeaturedPosts()
   return (
     <section>
