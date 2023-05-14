@@ -2,7 +2,7 @@ import api from '@/services/api'
 import PostCard from '../posts/PostCard'
 import MultiCarosel from './MultiCarosel'
 
-export default async function CaroselPosts(): Promise<> {
+export default async function CaroselPosts(): Promise<React.ReactElement> {
   const posts = await api.getNoneFeaturedPosts()
   return (
     <section className="my-12">
