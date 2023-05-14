@@ -1,8 +1,7 @@
-import React from 'react'
 import PostsBox from '../posts/PostsBox'
 import api from '@/services/api'
 
-async function FeaturedPosts() {
+export default async function FeaturedPosts() {
   const posts = await api.getFeaturedPosts()
   return (
     <section>
@@ -11,5 +10,3 @@ async function FeaturedPosts() {
     </section>
   )
 }
-
-export default FeaturedPosts
