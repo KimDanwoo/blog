@@ -2,7 +2,7 @@ import React from 'react'
 import PostsBox from '../posts/PostsBox'
 import api from '@/services/api'
 
-const FeaturedPosts = async () => {
+async function FeaturedPosts() {
   const posts = await api.getFeaturedPosts()
   return (
     <section>
