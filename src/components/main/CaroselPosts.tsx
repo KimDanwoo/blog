@@ -2,7 +2,7 @@ import api from '@/services/api'
 import PostCard from '../posts/PostCard'
 import MultiCarosel from './MultiCarosel'
 
-export default async function CaroselPosts() {
+export default async function CaroselPosts(): Promise<> {
   const posts = await api.getNoneFeaturedPosts()
   return (
     <section className="my-12">
