@@ -7,7 +7,9 @@ export default function HomePage() {
   return (
     <div>
       <ProfilePage />
+      {/* @ts-expect-error Server Component */}
       <FeaturedPosts />
+      {/* @ts-expect-error Server Component */}
       <CaroselPosts />
     </div>
   )
