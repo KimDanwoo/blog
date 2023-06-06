@@ -38,5 +38,21 @@
     "date": "2023-04-13",
     "path": "factory-parrern",
     "featured": true
+  },
+  {
+    "title": "객체(Object)와 클래스(class)를 알아보자",
+    "description": "object와 class개념",
+    "category": "javascript",
+    "date": "2023-06-06",
+    "path": "object-class",
+    "featured": true
+  },
+  {
+    "title": "작동 위임 (behavior delegation)",
+    "description": "behavior delegation",
+    "category": "javascript",
+    "date": "2023-06-06",
+    "path": "behavior-delegation",
+    "featured": true
   }
 ]
