@@ -54,5 +54,13 @@
     "date": "2023-06-06",
     "path": "behavior-delegation",
     "featured": true
+  },
+  {
+    "title": "SSR, CSR, ISR, SSG",
+    "description": "렌더링 기법을 알아보자",
+    "category": "frontend",
+    "date": "2023-06-15",
+    "path": "ssr-csr",
+    "featured": true
   }
 ]

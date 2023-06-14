@@ -14,7 +14,7 @@ export default function ProfilePage() {
       />
       <h2 className="text-3xl font-bold mt-2">{"Hi I'm Danwoo"}</h2>
       <h3 className="text-xl font-semibold">Frontent engineer</h3>
-      <p>단단한 개발자 김단우입니다.</p>
+      <p>김단우입니다.</p>
       <Link
         href="/contact"
         className="bg-yellow-500 font-bold rounded-xl py-1 px-4 mt-2"
