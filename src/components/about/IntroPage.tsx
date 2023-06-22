@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function IntroPage() {
   return (
-    <section className=" bg-slate-200 text-center py-4">
+    <section className=" bg-slate-200 text-center rounded-md py-4">
       <div>
         <h4 className="text-2xl font-bold">Who Am I?</h4>
-        <p className="py-2">
+        <p className="py-8">
           2년 경력을 보유한 프론트엔드 개발자 김단우입니다. <br />
           개발 경력 동안, 다양한 프로젝트에서 리드 역할을 수행하며 프론트엔드
           <br />
@@ -21,11 +21,6 @@ export default function IntroPage() {
           <br /> 변화와 발전을 따라가는 것에 대한 열정을 가지고 있습니다.
           <br /> 제 생각에, 좋은 개발은 단순히 코드의 품질 뿐만 아니라
           <br /> 사용자의 접근성을 고려하는 것에서 시작한다고 믿습니다.
-          <br /> 제가 협업과 커뮤니케이션에서 중요하게 생각하는 것은,
-          <br />
-          사소한 문제에 대해서도 깊게 고민하고 이해하고자 하는 자세입니다.
-          <br /> 이를 바탕으로, 어떤 프로젝트라도 효율성 있게 개선하고 운영 및
-          유지보수 할 수 있습니다.
         </p>
       </div>
       <div>

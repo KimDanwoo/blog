@@ -39,6 +39,10 @@ const ContactForm = () => {
       }, 3000)
     }
   }
+
+  const isDisabled = () => {
+    return form.from === '' || form.subject === '' || form.message === ''
+  }
   return (
     <section className="w-full max-w-md mx-auto mt-6">
       {banner && <Banner banner={banner} />}
@@ -67,8 +71,6 @@ const ContactForm = () => {
           id="subject"
           name="subject"
           className="text-black p-2 rounded-sm"
-          autoFocus
-          required
           value={form.subject}
           onChange={handleChange}
         />
@@ -80,12 +82,13 @@ const ContactForm = () => {
           id="message"
           name="message"
           className="text-black p-2 rounded-sm"
-          autoFocus
-          required
           value={form.message}
           onChange={handleChange}
         />
-        <button className="bg-yellow-300 text-black font-bold p-2 rounded-sm hover:bg-yellow-400">
+        <button
+          className="bg-yellow-300 text-black font-bold p-2 rounded-sm hover:bg-yellow-400 disabled:bg-yellow-100"
+          disabled={isDisabled()}
+        >
           Submit
         </button>
       </form>
