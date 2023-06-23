@@ -9,8 +9,8 @@ const sans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: {
-    default: '단우의 블로그',
-    template: '단우의 블로그 | %s',
+    default: 'danwoo',
+    template: '%s | danwoo',
   },
   description: '프론트앤드 개발자 단우의 블로그',
   icons: {
