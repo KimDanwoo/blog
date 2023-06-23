@@ -1,12 +1,14 @@
 import IntroPage from '@/components/about/IntroPage'
 import ProfilePage from '@/components/main/ProfilePage'
+import api from '@/services/api'
 import React from 'react'
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const content = await api.getIntroPost('introduction')
   return (
     <>
       <ProfilePage />
-      <IntroPage />
+      <IntroPage content={content.content} />
     </>
   )
 }

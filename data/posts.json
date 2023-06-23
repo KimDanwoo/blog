@@ -1,7 +1,7 @@
 [
   {
     "title": "웹접근성 마스터하기",
-    "description": "웹접근성을 알아보자",
+    "description": "웹 접근성이랑 모든사람이 쉽게 사용할 수 있는 웹사이트와 웹 앱을 구축하는 기술이다.",
     "category": "frontend",
     "date": "2023-05-02",
     "path": "react18-walkthrough",
@@ -9,7 +9,7 @@
   },
   {
     "title": "함수형, 객체지향 프로그래밍",
-    "description": "우린 매일 커링을 쓰고있다.",
+    "description": "함수형 프로그래밍(FP)과 객체지향 프로그래밍(OOP)이 상당히 닮아있으며 두 패러다임의 특정한 패턴에 대한 추론을 배우면 두가지를 깊이 이해할 수 있다.",
     "category": "javascript",
     "date": "2023-04-15",
     "path": "best-react-practices",
@@ -17,7 +17,7 @@
   },
   {
     "title": "고급 자바스크립트 함수",
-    "description": "함수를 조합해보자.",
+    "description": "가독성이 높은 코드를 작성하는 데 도움이 되는 기능",
     "category": "javascript",
     "date": "2023-04-13",
     "path": "javascript-10-tips",
@@ -25,7 +25,7 @@
   },
   {
     "title": "운영체제란",
-    "description": "운영체제를 알아보자",
+    "description": "Os Linux Unix 의 차이와 특징",
     "category": "cs",
     "date": "2023-04-10",
     "path": "node-pro-tips",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Factory Pattern",
-    "description": "factory pattern이란?",
+    "description": "팩토리 패턴은 생성될 정확한 클래스를 지정하지 않고 객체를 생성할 수 있는 설계 접근 방식이다.",
     "category": "frontend",
     "date": "2023-04-13",
     "path": "factory-parrern",
@@ -57,7 +57,7 @@
   },
   {
     "title": "SSR, CSR, ISR, SSG",
-    "description": "렌더링 기법을 알아보자",
+    "description": "렌더링 기법의 종류와 특징",
     "category": "frontend",
     "date": "2023-06-15",
     "path": "ssr-csr",

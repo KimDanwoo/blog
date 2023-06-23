@@ -19,13 +19,13 @@ const FilterablePosts = ({ posts, categories }: Props) => {
       : posts.filter((post) => post.category === selected)
 
   return (
-    <section className="flex flex-col-reverse md:flex-row m-4">
-      <PostsBox posts={filtered} />
+    <section className="max-w-4xl mx-auto flex flex-col m-4">
       <Categories
         categories={[ALL_POSTS, ...categories]}
         selected={selected}
         onClick={setSelected}
       />
+      <PostsBox posts={filtered} />
     </section>
   )
 }

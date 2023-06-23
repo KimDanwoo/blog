@@ -48,6 +48,12 @@ const getPost = async (fileName: string): Promise<PostData> => {
   return { ...post, content, next, prev }
 }
 
+const getIntroPost = async (fileName: string) => {
+  const filePath = path.join(process.cwd(), 'data/posts', `${fileName}.md`)
+  const content = await readFile(filePath, 'utf-8')
+  return { content }
+}
+
 const postSendContactEmail = async (email: EmailData) => {
   const response = await fetch('/api/email', {
     method: 'POST',
@@ -69,6 +75,7 @@ const api = {
   getNoneFeaturedPosts,
   getPost,
   postSendContactEmail,
+  getIntroPost,
 }
 
 export default api

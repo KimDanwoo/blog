@@ -10,21 +10,11 @@ export default function PostCard({
 }: Props) {
   return (
     <Link href={`/posts/${path}`}>
-      <article className="rounded-md overflow-hidden shadow-md">
-        <Image
-          className="w-full"
-          src={`/images/posts/${path}.png`}
-          width={300}
-          height={200}
-          alt={title}
-        />
-        <div className="flex flex-col items-center p-4">
+      <article className="rounded-md overflow-hidden hover:shadow-md hover:bg-slate-50 hover:dark:bg-slate-900 my-4">
+        <div className="flex flex-col items-start p-4">
           <time className="self-end">{date.toString()}</time>
-          <h3 className="text-lg font-bold truncate">{title}</h3>
-          <p className="w-full truncate text-center">{description}</p>
-          <span className="text-sm rounded-lg bg-green-100 px-2 my-2">
-            {category}
-          </span>
+          <h3 className="w-full text-lg font-bold  text-center">{title}</h3>
+          <p className="w-full text-center">{description}</p>
         </div>
       </article>
     </Link>

@@ -1,4 +1,4 @@
-import AthorPost from '@/components/AthorPost'
+import AnotherPost from '@/components/AnotherPost'
 import PostContent from '@/components/posts/PostContent'
 import api from '@/services/api'
 import { Metadata } from 'next'
@@ -22,18 +22,11 @@ export async function generateMetadata({
 const PostPage = async ({ params: { slug } }: Props) => {
   const post = await api.getPost(slug)
   return (
-    <article className="rounded-2xl overflow-hidden bg-gray-100 shadow-lg m-4">
-      <Image
-        src={`/images/posts/${post.path}.png`}
-        className="w-full max-h-80"
-        width={760}
-        height={250}
-        alt={post.title}
-      />
+    <article className=" max-w-5xl mx-auto rounded-2xl overflow-hidden bg-gray-100 shadow-lg m-4 mt-12">
       <PostContent post={post} />
       <section className="flex shadow-md">
-        <AthorPost post={post.prev} type="prev" />
-        <AthorPost post={post.next} type="next" />
+        <AnotherPost post={post.prev} type="prev" />
+        <AnotherPost post={post.next} type="next" />
       </section>
     </article>
   )

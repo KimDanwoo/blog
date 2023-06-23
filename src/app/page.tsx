@@ -1,16 +1,13 @@
-import CaroselPosts from '@/components/main/CaroselPosts'
-import FeaturedPosts from '@/components/main/FeaturedPosts'
+import IntroPage from '@/components/about/IntroPage'
 import ProfilePage from '@/components/main/ProfilePage'
-import Image from 'next/image'
+import api from '@/services/api'
 
-export default function HomePage() {
+export default async function HomePage() {
+  const content = await api.getIntroPost('introduction')
   return (
     <div>
       <ProfilePage />
-      {/* @ts-expect-error Server Component */}
-      <FeaturedPosts />
-      {/* @ts-expect-error Server Component */}
-      <CaroselPosts />
+      <IntroPage content={content.content} />
     </div>
   )
 }

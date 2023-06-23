@@ -22,7 +22,7 @@ const responsive = {
   },
 }
 
-const MultiCarosel = ({ children }: { children: ReactNode }) => {
+const MultiCarousel = ({ children }: { children: ReactNode }) => {
   return (
     <Carousel responsive={responsive} autoPlay infinite itemClass="m-2">
       {children}
@@ -30,4 +30,4 @@ const MultiCarosel = ({ children }: { children: ReactNode }) => {
   )
 }
 
-export default MultiCarosel
+export default MultiCarousel
