@@ -48,9 +48,6 @@ const MarkdownViewer = ({ content }: { content: string }) => {
         h3: ({ node, ...props }) => (
           <h3 className="text-black dark:text-white" {...props}></h3>
         ),
-        code: ({ node, ...props }) => (
-          <code className="text-black dark:text-white" {...props}></code>
-        ),
         a: ({ node, ...props }) => (
           <a className="text-black dark:text-white" {...props}></a>
         ),

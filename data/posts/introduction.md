@@ -8,9 +8,9 @@
 
 # ✨ 기술 스택
 
-WEB : `React.js`, `Vue.js`, `Next.js`, `Nuxt.js`, `Javascript`, `Typescript`
+WEB : React.js, Vue.js, Next.js, Nuxt.js, Javascript, Typescript
 
-기타 관심 : `리팩토링`, `Fx.js`, `CleanCode` , `컴포넌트설계` , `프론트엔드 디자인패턴`
+기타 관심 : 리팩토링, Fx.js, CleanCode , 컴포넌트설계 , 프론트엔드 디자인패턴
 
 ---
 
