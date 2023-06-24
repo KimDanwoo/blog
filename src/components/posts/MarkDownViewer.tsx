@@ -10,7 +10,7 @@ const MarkdownViewer = ({ content }: { content: string }) => {
   const { theme, setTheme } = useTheme()
   return (
     <ReactMarkdown
-      className="prose max-w-none dark:text-white p-12"
+      className="prose max-w-none dark:text-white p-4 lg:p-14"
       remarkPlugins={[remarkGfm]}
       components={{
         code({ node, inline, className, children, ...props }) {

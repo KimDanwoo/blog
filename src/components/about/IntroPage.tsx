@@ -4,7 +4,7 @@ import MarkdownViewer from '../posts/MarkDownViewer'
 
 export default function IntroPage({ content }: { content: string }) {
   return (
-    <section className="p-4 text-center rounded-md py-4 ">
+    <section className="text-center rounded-md py-4 ">
       <MarkdownViewer content={content} />
     </section>
   )
