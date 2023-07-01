@@ -36,7 +36,7 @@
     "description": "팩토리 패턴은 생성될 정확한 클래스를 지정하지 않고 객체를 생성할 수 있는 설계 접근 방식이다.",
     "category": "frontend",
     "date": "2023-04-13",
-    "path": "factory-parrern",
+    "path": "factory-pattern",
     "featured": true
   },
   {
