@@ -12,9 +12,12 @@ export default function AppHeader() {
         <Link href="/" className="text-lg flex items-center">
           Home
         </Link>
-        <Link href="/posts" className="text-lg flex items-center">
+        <a
+          href="https://danwoo-dev.netlify.app/"
+          className="text-lg flex items-center"
+        >
           Posts
-        </Link>
+        </a>
       </nav>
     </header>
   )
