@@ -5,7 +5,6 @@
 
 ## 사용 라이브러리
 
-- nodemailer
 - yup
 - react-syntax-highlighter
 - typescript
