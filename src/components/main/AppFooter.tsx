@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 export default function AppFooter() {
   return (
     <div className="py-2 text-center  text-sm">
-      {"Don't forget to CODE your Dream"}
+      {'© ' + new Date().getFullYear() + ' danwoo. All Rights Reserved'}
     </div>
-  );
+  )
 }
